@@ -10,26 +10,8 @@ package ca.sheridancollege.week1.softwarefundamentals;
  * @author sidhu376
  */
 public class Student {
-    
-private String name;
-    private double gpa;
-    private String email;
-    private int id;
-    /**
-     * @return the id
-     */
-    public int getId() {
-        return id;
-    }
 
     /**
-     * @param id the id to set
-     */
-    public void setId(int id) {
-        this.id = id;
-    }
-    
-   /**
      * @return the email
      */
     public String getEmail() {
@@ -42,6 +24,11 @@ private String name;
     public void setEmail(String email) {
         this.email = email;
     }
+    
+    private String name;
+    private double gpa;
+    private String email;
+
     /**
      * Get the value of name
      *
