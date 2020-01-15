@@ -10,8 +10,24 @@ package ca.sheridancollege.week1.softwarefundamentals;
  * @author sidhu376
  */
 public class Student {
+
+    /**
+     * @return the email
+     */
+    public String getEmail() {
+        return email;
+    }
+
+    /**
+     * @param email the email to set
+     */
+    public void setEmail(String email) {
+        this.email = email;
+    }
     
     private String name;
+    private double gpa;
+    private String email;
 
     /**
      * Get the value of name
@@ -21,6 +37,7 @@ public class Student {
     public String getName() {
         return name;
     }
+    
 
     /**
      * Set the value of name
@@ -29,6 +46,20 @@ public class Student {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * @return the gpa
+     */
+    public double getGpa() {
+        return gpa;
+    }
+
+    /**
+     * @param gpa the gpa to set
+     */
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
     }
 
 }
